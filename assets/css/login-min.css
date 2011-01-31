@@ -1,0 +1,187 @@
+
+	html,body,div,span,applet,object,iframe,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,label,legend,p,blockquote,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}body{line-height:1;color:black;background:white;}:focus{outline:0;}table{border-collapse:collapse;border-spacing:0;}caption,th,td{text-align:left;font-weight:normal;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}ol,ul{list-style:none;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}blockquote:before,blockquote:after,q:before,q:after{content:"";}blockquote,q{quotes:"" "";}abbr,acronym{border:0;}
+
+	@font-face 
+	{
+		font-family: 'ChunkFiveRoman';
+		src: url('./font-faces/chunkfive-webfont.eot');
+		src: local('☺'), url('./font-faces/chunkfive-webfont.woff') format('woff'), url('./font-faces/chunkfive-webfont.ttf') format('truetype'), url('./font-faces/chunkfive-webfont.svg#webfontcuznX20e') format('svg');
+		font-weight: normal;
+		font-style: normal;
+	}
+	
+	body
+	{
+		border-top:			5px solid #333;			
+		font-family:			"Trebuchet MS", "Gill Sans", "Gill Sans MT", Helvetica, Arial, sans-serif;
+		background-color:		#fff;
+		background-image:		url('/assets/images/stripes.png');
+		color:				#333;		
+	}
+	
+	/*a
+	{
+		color:				#666;
+	}*/
+	
+	ul 
+	{
+		margin:				0px;
+		padding:			0px;
+	}
+	
+	ul li 
+	{
+		list-style-type: 		square;
+		margin-left:			20px;
+		
+	}
+	
+	.error
+	{
+		font-size:			11pt;
+		padding:			10px;
+		color:				#fff;
+		background-color:		#660000;
+		margin-bottom:			10px;
+		
+		-webkit-border-top-right-radius: 10px;
+	}
+	
+	#login form
+	{
+		padding:			10px;
+	}
+	
+	#login
+	{
+		background-color:		#fff;
+		
+		width:				600px;
+		min-height:			300px;
+		
+		border:				1px solid #e4e4e4;
+		margin:				40px auto 0px auto;
+		
+		-webkit-box-shadow: 		0px 0px 15px #e4e4e4; 	
+		-webkit-border-top-right-radius: 10px;
+	}
+		
+	
+	#login dl dt
+	{
+		font-size:			11pt;
+		color:				#666;
+		padding:			17px 0px 0px 0px;
+		width:				130px;
+		float:				left;
+	}
+	
+	#login dl dd
+	{		
+		margin-bottom:			10px;
+	}
+	
+	#login input[type='text'],
+	#login input[type='password']
+	{
+		color:				#666;
+		
+		padding:			5px;
+		margin:				10px 0px 10px 0px;
+		width:				437px;
+		border:				1px solid #e4e4e4;
+		
+		-webkit-box-shadow: 		0px 0px 10px #e4e4e4; 	
+	}
+	
+	#login input:focus
+	{
+		border-color:			#999;
+	}
+
+	#login p#reminder
+	{
+		padding:			15px 0px 15px 0px;
+		text-align:			right;
+	}
+	
+	#login p#reminder a,
+	#login p#reminder a:visited
+	{
+		font-size:			12px;
+		color:				#999;
+	}
+	
+	#login h2
+	{
+		border:				1px solid #333;
+		padding:			13px 0px 3px 10px;
+		color:				#fff;
+		background-color:		#333;
+		
+		margin-bottom:			10px;
+		
+		font-family: 			'ChunkFiveRoman', sans-serif;
+		font-size:			20pt;
+		
+		-webkit-border-top-right-radius: 10px;
+	}
+	
+	#login #submit-container 
+	{
+		text-align:			right;
+	}
+	
+	.button 
+	{
+		display: 			inline-block;
+		outline: 			none;
+		cursor: 			pointer;
+		text-align: 			center;
+		text-decoration: 		none;
+		font-size: 			13px;
+		padding: 			.5em 2em .55em;
+		text-shadow: 			0 1px 1px rgba(0,0,0,.3);
+		-webkit-border-radius: 		.5em;
+		-moz-border-radius: 		.5em;
+		border-radius: 			.5em;
+		-webkit-box-shadow: 		0 1px 2px rgba(0,0,0,.2);
+		-moz-box-shadow: 		0 1px 2px rgba(0,0,0,.2);
+		box-shadow: 			0 1px 2px rgba(0,0,0,.2);
+	}
+	
+	.button:hover 
+	{
+		text-decoration: 		none;
+	}
+	
+	.button:active 
+	{
+		position: 			relative;
+		top: 				1px;
+	}
+	
+	.green 
+	{
+		color: #e8f0de;
+		border: solid 1px #538312;
+		background: #64991e;
+		background: -webkit-gradient(linear, left top, left bottom, from(#7db72f), to(#4e7d0e));
+		background: -moz-linear-gradient(top,  #7db72f,  #4e7d0e);
+		filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#7db72f', endColorstr='#4e7d0e');
+	}
+	.green:hover 
+	{
+		background: #538018;
+		background: -webkit-gradient(linear, left top, left bottom, from(#6b9d28), to(#436b0c));
+		background: -moz-linear-gradient(top,  #6b9d28,  #436b0c);
+		filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#6b9d28', endColorstr='#436b0c');
+	}
+	.green:active 
+	{
+		color: #a9c08c;
+		background: -webkit-gradient(linear, left top, left bottom, from(#4e7d0e), to(#7db72f));
+		background: -moz-linear-gradient(top,  #4e7d0e,  #7db72f);
+		filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#4e7d0e', endColorstr='#7db72f');
+	}

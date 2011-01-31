@@ -1,0 +1,18 @@
+#########################################################################
+# PIKU! BOOTSTRAP FILE
+#########################################################################
+
+RewriteEngine On
+
+Options -Indexes
+
+# Allow real files
+RewriteCond %{REQUEST_FILENAME} !-f
+# stop access to core files
+RewriteRule ^(library)(/.*)? / [R,L]
+
+# Duplicate rewritecond for files
+RewriteCond %{REQUEST_FILENAME} !-f
+
+# Main handler.
+RewriteRule ^([a-zA-Z0-9\-\/\_\.]+)?(/)?$ bootstrap.php?data=$1 [L,QSA]

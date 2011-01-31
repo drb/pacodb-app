@@ -1,0 +1,113 @@
+
+	html,body,div,span,applet,object,iframe,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,label,legend,p,blockquote,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}body{line-height:1;color:black;background:white;}:focus{outline:0;}table{border-collapse:collapse;border-spacing:0;}caption,th,td{text-align:left;font-weight:normal;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}ol,ul{list-style:none;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}blockquote:before,blockquote:after,q:before,q:after{content:"";}blockquote,q{quotes:"" "";}abbr,acronym{border:0;}
+	
+	body
+	{
+		border-top:			4px solid #333;
+		height:				100%;
+	}
+	
+	h1, h2, h3, h4
+	{
+		clear:				both;
+		margin:				10px 0px 10px 0px;
+		font-weight:			bold;
+		text-decoration:		underline;
+		font-size:			120%;
+	}
+	
+	#content p
+	{
+		margin:				10px 0px 10px 0px;
+	}
+	
+	header a
+	{
+		color:				#fff;
+	}
+	
+	header
+	{
+		color:				#fff;
+		width:				100%;
+		min-height:			40px;
+		padding:			10px 0px 10px 0px;
+		background-color:		#333;
+	}
+	
+	footer
+	{
+		clear:				both;
+		font-size:			10px;
+	}
+	
+	.fwidth
+	{
+		margin:				0px auto 0px auto;
+		width:				960px;
+	}
+	
+	section#content
+	{
+		border:				1px solid #e4e4e4;
+	}
+	
+	/*dl dt
+	{
+		width:				150px;
+		float:				left;
+		margin:				10px;
+		clear:both;
+	}
+	
+	dl dd
+	{
+		margin:				10px;
+	}*/
+	
+	input, textarea
+	{
+		padding:			3px;
+		border:				1px solid #e4e4e4;
+	}
+	
+	textarea
+	{
+		width:				100%;
+	}
+	
+	form
+	{
+		padding: 			10px;
+		width: 				700px;
+	}
+	
+	form label, form input
+	{
+		display: 			block;
+		float: 				left;
+		margin-bottom: 			10px;
+	}
+	
+	form label
+	{
+		width:				170px;
+		text-align: 			right;
+		padding-right: 			20px;
+		clear:				left;
+	}
+	
+	.error
+	{
+		padding:			10px;
+		border:				1px solid red;
+		color:				red;
+	}
+	
+	.success
+	{
+		padding:			10px;
+		border:				1px solid green;
+		color:				green;
+	}
+
